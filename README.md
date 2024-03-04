@@ -1,4 +1,89 @@
-# SampleApp-SonarQube
+
+# Relatório: usando SonarQube com Docker e .NET Core
+
+## Introdução
+
+Esse relatório detalha a utilização do SonarQube, Docker e .NET Core para aprimorar a qualidade e a segurança do código. São abordados os conceitos chave, os benefícios e as etapas práticas para implementar essa solução.
+
+## Tecnologias abordadas
+- **SonarQube**: ferramenta de análise de código que identifica bugs, vulnerabilidades, odores de código e duplicações.
+- **Docker**:  plataforma de conteinerização que simplifica a execução de aplicações em ambientes isolados.
+- **.NET Core**: estrutura de código aberto para construção de aplicações web modernas, APIs e microsserviços.
+
+
+## Conceitos aprendidos
+### 1. Configurando o SonarQube:
+- Instalar o Java e o Docker.
+- Executar o SonarQube em um contêiner Docker.
+
+### 2. Preparando o ambiente de desenvolvimento:
+- Instalar o SonarScanner para .NET Core.
+- Configurar o SonarScanner com detalhes do projeto.
+
+### 3. Análise de código:
+- Usar o SonarScanner para analisar o código-fonte.
+- Visualizar os resultados da análise no SonarQube.
+
+### 4. Configuração adicional:
+- Personalizar o escopo da análise (por exemplo, excluir arquivos/diretórios específicos).
+
+## Benefícios da abordagem
+- **Qualidade de código aprimorada**: é possível identificar e corrigir bugs, vulnerabilidades e padrões de código (conceitos de Clean Code) antes que impactem a produção.
+- **Segurança robusta**: o SonarQube ajuda a detectar potenciais vulnerabilidades de segurança no código.
+- **Colaboração em equipe**: fornece uma plataforma centralizada para análise e revisão de código, promovendo a colaboração entre desenvolvedores.
+- **Quality Gate**: permite definir padrões de qualidade aceitáveis, e a análise gráfica do código fornece insights visuais sobre o progresso da codificação.
+
+
+
+## Capturas de tela: 
+
+### Executando o código
+![image](assets\1.png)
+<br>
+
+![image](assets\2.png)
+<br>
+
+![image](assets\3.png)
+<br>
+
+![image](assets\4.png)
+<br>
+
+### Acessando o dashboard
+![image](assets\5.png)
+<br>
+
+### Overview do sistema, onde há 2 open issues em Reliability e 4 em Maintainability.
+![image](assets\6.png)
+<br>
+
+### Visualizando os bugs em Reliability
+![image](assets\7.png)
+<br>
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+# Instruções
 
 # Analyze Your Code Using SonarQube, Docker and .NET Core
 
