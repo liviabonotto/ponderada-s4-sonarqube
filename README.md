@@ -38,28 +38,28 @@ Esse relatório detalha a utilização do SonarQube, Docker e .NET Core para apr
 ## Capturas de tela: 
 
 ### Executando o código
-![image](assets\1.png)
+![image](assets/1.png)
 <br>
 
-![image](assets\2.png)
+![image](assets/2.png)
 <br>
 
-![image](assets\3.png)
+![image](assets/3.png)
 <br>
 
-![image](assets\4.png)
+![image](assets/4.png)
 <br>
 
 ### Acessando o dashboard
-![image](assets\5.png)
+![image](assets/5.png)
 <br>
 
 ### Overview do sistema, onde há 2 open issues em Reliability e 4 em Maintainability.
-![image](assets\6.png)
+![image](assets/6.png)
 <br>
 
 ### Visualizando os bugs em Reliability
-![image](assets\7.png)
+![image](assets/7.png)
 <br>
 
 
